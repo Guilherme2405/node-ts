@@ -1,0 +1,16 @@
+{
+  "name": "node001",
+  "version": "1.0.0",
+  "type": "module",                        
+  "scripts": {
+    "dev": "ts-node-dev --watch ts-node/esm src/server.ts",
+    "build": "tsc",
+    "start": "node --watch dist/server.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+  
+}
