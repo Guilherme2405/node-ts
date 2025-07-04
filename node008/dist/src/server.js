@@ -12,7 +12,7 @@ const server = createServer((req, res) => {
         users.push({ name: 'guiga kirin', email: "guiga@email.com" });
         return res.writeHead(201).end('<h1>Created</h1>');
     }
-    return res.writeHead(404).end(TypeError('Not Found').message);
+    return res.writeHead(404).end(TypeError('Not dwqdw').message);
 });
 server.listen(3000, () => {
     console.log('Server is running on port 3000');
