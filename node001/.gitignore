@@ -1,10 +1,7 @@
 # Node modules
 node_modules/
 
-# Diretórios de build
-dist/
-build/
-out/
+
 
 # Arquivos temporários do TypeScript
 *.tsbuildinfo
