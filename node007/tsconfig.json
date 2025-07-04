@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "rootDirs": ["./src", "./streams"],      /* Trata src e streams como mesma raiz */
+    "outDir": "./dist",                      /* Pasta onde os arquivos compilados vão */
+    "declaration": true,
+    "sourceMap": true,
+    "module": "es2020",
+    "target": "es2020",
+    "moduleResolution": "node",
+    "esModuleInterop": true                  /* Importação de módulos CommonJS como 'http' */
+  },
+  "include": ["./src", "./streams"],            /* Inclui os diretórios src e streams */
+}
