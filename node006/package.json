@@ -6,7 +6,8 @@
     "dev": "ts-node-dev ts-node/esm src/server.ts",
     "build": "tsc",
     "start": "node dist/src/server.js",
-    "startF": "node dist/streams/fundamentals.js"
+    "startF": "node dist/streams/stream-http-server.js",
+    "startL": "node dist/streams/fake-upload-http.js"
   },
   "devDependencies": {
     "@types/node": "^24.0.10",
